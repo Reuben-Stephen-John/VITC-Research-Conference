@@ -1,0 +1,106 @@
+.menuItem{
+  position: relative;
+  right: 2rem;
+}
+.menuItems{
+  margin-right: 2rem;
+  margin-left: 0;
+  margin-bottom: 0rem;
+}
+
+/*home*/
+.homeContainer{
+  margin-top: 5rem;
+}
+/*/home*/
+
+
+/*responsiveness*/
+
+/*extra small*/
+@media (max-width: 576px){
+  body{
+    background-color: pink!important;
+  }
+  .menuItem{
+    position: relative;
+    right: 0;
+  }
+
+  .menuItems{
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+}
+/*small*/
+@media (min-width: 577px){
+  body{
+    background-color: yellow!important;
+  }
+  .menuItem{
+    position: relative;
+    right: 0;
+  }
+
+  .menuItems{
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+}
+/*medium*/
+@media (min-width: 768px){
+  body{
+    background-color: green!important;
+  }
+  .menuItem{
+    position: relative;
+    right: 0;
+
+  }
+  .menuItems{
+    margin-right: 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+}
+/*large*/
+@media (min-width: 992px){
+  body{
+    background-color: orange!important;
+  }
+}
+/*extra large*/
+@media (min-width: 1200px){
+  body{
+    background-color: grey!important;
+  }
+  .menuItem{
+    position: relative;
+    right: 0rem;
+  }
+
+  .menuItems{
+    margin-right: 2rem;
+    margin-left: 0;
+    margin-bottom: 0rem;
+  }
+
+}
+/*extra extra large*/
+@media (min-width: 1400px){
+  body{
+    background-color: blue!important;
+  }
+  .menuItem{
+    position: relative;
+    right: 0rem;
+  }
+
+  .menuItems{
+    margin-right: 2rem;
+    margin-left: 0;
+    margin-bottom: 0rem;
+  }
+
+}
