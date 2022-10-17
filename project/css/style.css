@@ -14,6 +14,33 @@
 }
 /*/home*/
 
+/*/speaker/*/
+.row{
+  padding: 1% 2%;
+}
+.img-fluid {
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.event-space{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.contains{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+.card-text{
+  font-size: 0.99rem;
+
+}
+/*/speaker/*/
+
 
 /*responsiveness*/
 
