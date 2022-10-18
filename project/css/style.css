@@ -12,7 +12,36 @@
 .homeContainer{
   margin-top: 5rem;
 }
+.homeImageContainer{
+  height: 80vh;
+  background-image: url('../assets/conference4.jpg');
+  filter: blur(4px);
+}
+.headline{
+  position: relative;
+  bottom: 25rem;
+  color: white;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 3em;
+}
+.tagline{
+  position: relative;
+  bottom: 24rem;
+  color: white;
+  margin-left: 0.5rem;
+}
 /*/home*/
+
+/*contact*/
+.contactIconContainer{
+  margin-top: 4rem;
+}
+.contactIcons{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+/*/contact/
 
 
 /*responsiveness*/
@@ -73,7 +102,7 @@
 /*extra large*/
 @media (min-width: 1200px){
   body{
-    background-color: grey!important;
+    background-color: #ffffff!important;
   }
   .menuItem{
     position: relative;
