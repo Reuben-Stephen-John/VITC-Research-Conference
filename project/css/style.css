@@ -11,30 +11,63 @@
 /*home*/
 .homeContainer{
   margin-top: 5rem;
+  margin-left: -3vw;
+  width: 100vw;
 }
 .homeImageContainer{
   height: 80vh;
   background-image: url('../assets/conference4.jpg');
   filter: blur(4px);
+  width: 98vw;
+  background-repeat: no-repeat;
+}
+.child{
+  position: absolute;
+  top: 8rem;
+  left: .3rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 .headline{
-  position: relative;
-  bottom: 25rem;
   color: white;
   margin-left: 0.5rem;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3rem;
 }
 .tagline{
-  position: relative;
-  bottom: 24rem;
   color: white;
   margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+}
+.date{
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+}
+.address{
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+}
+.button{
+  margin-left: 0.7rem;
 }
 /*/home*/
 
 
 /*contact*/
+.contactTitle{
+  color: rgb(59, 139, 234);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.labelColor,.form-label{
+  color: #ffffff;
+}
 .contactIconContainer{
   margin-top: 4rem;
 }
@@ -73,6 +106,29 @@
     position: relative;
     right: 0;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+  }
+  /*/home*/
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -99,6 +155,29 @@
     position: relative;
     right: 0;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+  }
+  /*/home*/
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -126,6 +205,32 @@
     right: 0;
 
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 5em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 3.5rem;
+    font-size: 2em;
+
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.8em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.8em;
+  }
+  .button{
+    margin-left: 0.5rem;
+    font-size: 1.5em;
+  }
+  /*/home*/
   .card-text{
     font-size: 1.3rem;
   }
@@ -149,6 +254,32 @@
   body{
     background-color: orange!important;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3.5em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 2.5rem;
+    font-size: 1.5em;
+
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+    font-size: 1.5em;
+  }
+  /*/home*/
   .contains{
     margin-left: 10rem;
     margin-right: 10rem;
@@ -170,6 +301,32 @@
     position: relative;
     right: 0rem;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1em;
+
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1em;
+  }
+  .button{
+    margin-left: 0.5rem;
+    font-size: 1em;
+  }
+  /*/home*/
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -194,6 +351,29 @@
   body{
     background-color: blue!important;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+  }
+  /*/home*/
   .menuItem{
     position: relative;
     right: 0rem;
