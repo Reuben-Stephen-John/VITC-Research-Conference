@@ -9,28 +9,28 @@
 }
 /*Icon*/
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: 10px;
+  font-size: 18px;
+  /*width: 30px;*/
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 5px;
   border-radius: 50%;
 }
 .fa:hover {
   opacity: 0.7;
 }
 .fa-google {
-  background: #dd4b39;
+  background: #0f172a;
   color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #0f172a;
   color: white;
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #0f172a;
   color: white;
 }
 
@@ -48,8 +48,13 @@
   border-radius: 50%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2rem;
+  margin-right: 1rem;
+
+  max-width: 100%;
+  max-height: auto;
+  margin: 10px 5px;
+  
 }
 
 
@@ -72,11 +77,18 @@
     margin-right: 3rem;
   }
   .card-text{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .contains{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .img-fluid {
+    border-radius: 50%;
+      
+    max-width: 40%;
+    max-height: auto;
+    margin: 10px 5px;
   }
 
   .menuItems{
@@ -93,6 +105,18 @@
     position: relative;
     right: 0;
   }
+  .img-fluid {
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  
+    max-width: 100%;
+    max-height: auto;
+    margin: 10px 5px;
+    
+  }
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -101,8 +125,8 @@
     font-size: 1.2rem;
   }
   .contains{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .menuItems{
@@ -119,6 +143,18 @@
     position: relative;
     right: 0;
 
+  }
+  .img-fluid {
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  
+    max-width: 100%;
+    max-height: auto;
+    margin: 10px 5px;
+    
   }
   .card-text{
     font-size: 1.3rem;
@@ -151,6 +187,18 @@
     margin-left: 3rem;
     margin-right: 3rem;
   }
+  .img-fluid {
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  
+    max-width: 100%;
+    max-height: auto;
+    margin: 10px 5px;
+    
+  }
   .card-text{
     font-size: 1.2rem;
   }
@@ -174,6 +222,18 @@
   .contains{
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+  .img-fluid {
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  
+    max-width: 100%;
+    max-height: auto;
+    margin: 10px 5px;
+    
   }
 
   .menuItems{
@@ -203,6 +263,18 @@
   .contains{
     margin-left: 30rem;
     margin-right: 30rem;
+  }
+  .img-fluid {
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  
+    max-width: 100%;
+    max-height: auto;
+    margin: 10px 5px;
+    
   }
 
   .menuItems{
