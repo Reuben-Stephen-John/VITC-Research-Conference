@@ -40,6 +40,21 @@
 }
 /*/home*/
 
+/*/speaker/*/
+.row{
+  padding: 1% 2%;
+}
+.img-fluid {
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*/speaker/*/
+
 
 /*responsiveness*/
 
@@ -51,6 +66,17 @@
   .menuItem{
     position: relative;
     right: 0;
+  }
+  .event-space{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .card-text{
+    font-size: 1.2rem;
+  }
+  .contains{
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .menuItems{
@@ -66,6 +92,17 @@
   .menuItem{
     position: relative;
     right: 0;
+  }
+  .event-space{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .card-text{
+    font-size: 1.2rem;
+  }
+  .contains{
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .menuItems{
@@ -83,6 +120,17 @@
     right: 0;
 
   }
+  .card-text{
+    font-size: 1.3rem;
+  }
+  .contains{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .event-space{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
   .menuItems{
     margin-right: 0;
     margin-left: 1rem;
@@ -95,6 +143,17 @@
   body{
     background-color: orange!important;
   }
+  .contains{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .event-space{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .card-text{
+    font-size: 1.2rem;
+  }
 }
 /*extra large*/
 @media (min-width: 1200px){
@@ -104,6 +163,17 @@
   .menuItem{
     position: relative;
     right: 0rem;
+  }
+  .event-space{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .card-text{
+    font-size: 1.2rem;
+  }
+  .contains{
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
   .menuItems{
@@ -121,6 +191,18 @@
   .menuItem{
     position: relative;
     right: 0rem;
+  }
+  .card-text{
+    font-size: 1.2rem;
+  }
+  
+  .event-space{
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+  .contains{
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   .menuItems{
