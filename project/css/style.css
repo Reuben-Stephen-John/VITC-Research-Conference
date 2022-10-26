@@ -7,6 +7,15 @@
   margin-left: 0;
   margin-bottom: 0rem;
 }
+#jumboCarousel .carousel-caption {
+  color: white;
+  right: 1rem;
+  text-align: center;
+  left: 1rem;
+  top:40%;
+  bottom:auto;
+  
+}
 /*Icon*/
 .fa {
   padding: 10px;
@@ -274,7 +283,6 @@
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
-    
   }
 
   .menuItems{
