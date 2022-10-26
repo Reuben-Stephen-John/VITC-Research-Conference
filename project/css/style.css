@@ -46,10 +46,114 @@
 /*home*/
 .homeContainer{
   margin-top: 5rem;
+  margin-left: -3vw;
+  width: 90vw;
+}
+.homeImageContainer{
+  height: 100vh;
+  background-image: url('../assets/conference4.jpg');
+  filter: blur(4px);
+  width: 98vw;
+  background-repeat: no-repeat;
+}
+.child{
+  position: absolute;
+  top: 8rem;
+  left: .3rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.headline{
+  color: white;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.tagline{
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+}
+.date{
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+}
+.address{
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.3em;
+}
+.button{
+  margin-left: 0.7rem;
+}
+#demo{
+  position: relative;
+  left: 50rem;
+  bottom:7.5rem;
+  color: #ffffff;
+  width:26rem;
+  font-size: 3rem;
+}
+.columns{
+  margin-left: 1rem;
+  font-size: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(0, 15, 67)!important;
+  border-radius: 1rem;
+  margin-top: -1.2rem;
+}
+.timeHeading{
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 1.8rem;
+  color:rgb(0, 15, 67);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  width: 18rem;
+
+}
+.counterHeading{
+  margin-top: 0.2rem;
+  text-align: center;
+  color:rgb(59, 139, 234);
+  padding: 0.1rem;
+}
+.timeValues{
+  text-align: center;
+  font-weight: bold;
+  margin-top: -0.2rem;
 }
 /*/home*/
 
-/*/speaker/*/
+
+/*contact*/
+.contactTitle{
+  color: rgb(59, 139, 234);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.labelColor,.form-label{
+  color: #ffffff;
+}
+.contactIconContainer{
+  margin-top: 4rem;
+}
+.contactIcons{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+/*/contact/
+
+/*speaker*/
+
 .row{
   padding: 1% 2%;
 }
@@ -67,7 +171,8 @@
 }
 
 
-/*/speaker/*/
+/*/speaker*/
+
 
 
 /*responsiveness*/
@@ -81,6 +186,29 @@
     position: relative;
     right: 0;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+  }
+  /*/home*/
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -126,6 +254,29 @@
     margin: 10px 5px;
     
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+  }
+  /*/home*/
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -165,6 +316,38 @@
     margin: 10px 5px;
     
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 5em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 3.5rem;
+    font-size: 2em;
+
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.8em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.8em;
+  }
+  .button{
+    margin-left: 0.5rem;
+    font-size: 1.5em;
+  }
+  #demo{
+    position: relative;
+    left: 33rem;
+    bottom:3rem;
+    width:26rem;
+  }
+  /*/home*/
   .card-text{
     font-size: 1.3rem;
   }
@@ -188,6 +371,38 @@
   body{
     background-color: orange!important;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3.5em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 2.5rem;
+    font-size: 1.5em;
+
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+    font-size: 1.5em;
+  }
+  #demo{
+    position: relative;
+    left: 33rem;
+    bottom:8rem;
+    width:26rem;
+  }
+  /*/home*/
   .contains{
     margin-left: 10rem;
     margin-right: 10rem;
@@ -215,12 +430,44 @@
 /*extra large*/
 @media (min-width: 1200px){
   body{
-    background-color: grey!important;
+    background-color: #ffffff!important;
   }
   .menuItem{
     position: relative;
     right: 0rem;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1em;
+
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1em;
+  }
+  .button{
+    margin-left: 0.5rem;
+    font-size: 1em;
+  }
+  #demo{
+    position: relative;
+    left: 50rem;
+    bottom:3.8rem;
+    width:26rem;
+  }
+  /*/home*/
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -257,6 +504,35 @@
   body{
     background-color: blue!important;
   }
+  /*home*/
+  .headline{
+    margin-left: 0.5rem;
+    font-size: 3em;
+  }
+  .tagline{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .date{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .address{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3em;
+  }
+  .button{
+    margin-left: 0.5rem;
+  }
+  #demo{
+    position: relative;
+    left: 58rem;
+    bottom:1rem;
+    width:26rem;
+  }
+  /*/home*/
   .menuItem{
     position: relative;
     right: 0rem;
@@ -264,7 +540,7 @@
   .card-text{
     font-size: 1.2rem;
   }
-  
+
   .event-space{
     margin-left: 20rem;
     margin-right: 20rem;
