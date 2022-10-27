@@ -32,12 +32,10 @@
 }
 
 #speakers.nav-link{
-  
+  height: 82px;
   border-radius: 18px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: span;
-  color: white;
-  
 }
 
 .bolded {
@@ -239,15 +237,15 @@
   /*speaker*/
   #speakers .nav-link {
 
-    border-radius: 16px;
-    font-size: 11px !important;
+    border-radius: 18 px;
+    font-size: 15px !important;
     text-align: span;
-    color: white;
+
   }
-  /*/home*/
+ 
   .event-space{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
   .card-text{
     font-size: 1rem;
@@ -391,6 +389,13 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  #speakers .nav-link {
+
+    border-radius: 18 px;
+    font-size: 20px !important;
+    text-align: span;
+
+  }
   .event-space{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -442,6 +447,12 @@
   .contains{
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+  #speakers .nav-link {
+    border-radius: 18 px;
+    font-size: 14px !important;
+    text-align: span;
+
   }
   .event-space{
     margin-left: 3rem;
@@ -503,10 +514,16 @@
     bottom:3.8rem;
     width:26rem;
   }
-  /*/home*/
+  #speakers .nav-link {
+    height: 75px;
+    border-radius: 18 px;
+    font-size: 13px !important;
+    text-align: span;
+
+  }
   .event-space{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
   .card-text{
     font-size: 1.2rem;
@@ -597,6 +614,7 @@
     max-height: auto;
     margin: 10px 5px;
   }
+  
 
   .menuItems{
     margin-right: 2rem;
