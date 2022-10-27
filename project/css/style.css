@@ -16,6 +16,34 @@
   bottom:auto;
   
 }
+/*back to top*/ 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+}
+
+#speakers.nav-link{
+  
+  border-radius: 18px;
+  font-size: 20px;
+  text-align: span;
+  color: white;
+  
+}
+
+.bolded {
+  font-weight: bold;
+}
+
 /*Icon*/
 .fa {
   padding: 10px;
@@ -155,7 +183,7 @@
 /*speaker*/
 
 .row{
-  padding: 1% 2%;
+    padding: 1% 2%;
 }
 .img-fluid {
   border-radius: 50%;
@@ -207,6 +235,14 @@
   }
   .button{
     margin-left: 0.5rem;
+  }
+  /*speaker*/
+  #speakers .nav-link {
+
+    border-radius: 16px;
+    font-size: 11px !important;
+    text-align: span;
+    color: white;
   }
   /*/home*/
   .event-space{
@@ -538,13 +574,14 @@
     right: 0rem;
   }
   .card-text{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .event-space{
     margin-left: 20rem;
     margin-right: 20rem;
   }
+  /*Carousal*/
   .contains{
     margin-left: 30rem;
     margin-right: 30rem;
