@@ -9,14 +9,34 @@
   color:#000000!important;
   font-weight: bold;
 }
+/*details image rounding*/
+#ca-image{
+  border-radius: 25px;
+}
+/*details image rounding*/
+#event{
+  padding-top: 20px;
+}
+.dets
+{
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
 #jumboCarousel .carousel-caption {
   color: white;
   right: 1rem;
   text-align: center;
   left: 1rem;
-  top:40%;
-  bottom:auto;
-  
+  top: 40%;
+  bottom: auto;
+}
+#jc.carousel-caption {
+  color: white;
+  right: 1rem;
+  text-align: center;
+  left: 1rem;
+  top: 1rem;
+  bottom: auto;
 }
 /*back to top*/ 
 #btn-back-to-top {
@@ -43,6 +63,15 @@
 .bolded {
   font-weight: bold;
 }
+ .event-space-heading {
+   margin-left: 10rem;
+   margin-right: 10rem;
+   padding-bottom: 50px;
+ }
+ .lead{
+  padding-top: 5px;
+  font-size: large;
+ }
 
 /*Icon*/
 .fa {
@@ -300,6 +329,28 @@ a:active {
   .button{
     margin-left: 0.5rem;
   }
+    #jumboCarousel .carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: 5%;
+      bottom: auto;
+    }
+    #jc.carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: .25rem;
+      bottom: auto;
+    }
+  .event-space-heading {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
   /*speaker*/
   #speakers .nav-link {
 
@@ -319,6 +370,7 @@ a:active {
   .contains{
     margin-left: 0rem;
     margin-right: 0rem;
+    padding-bottom: 30px;
   }
   .img-fluid {
     border-radius: 50%;
@@ -354,6 +406,28 @@ a:active {
     margin: 10px 5px;
     
   }
+    #jumboCarousel .carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: 40%;
+      bottom: auto;
+    }
+    #jc.carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: 1rem;
+      bottom: auto;
+    }
+  .event-space-heading {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
   /*home*/
   .headline{
     margin-left: 0.5rem;
@@ -387,6 +461,7 @@ a:active {
   .contains{
     margin-left: 0rem;
     margin-right: 0rem;
+    padding-bottom: 30px;
   }
 
   .menuItems{
@@ -415,6 +490,28 @@ a:active {
     max-height: auto;
     margin: 10px 5px;
     
+  }
+    #jumboCarousel .carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: 40%;
+      bottom: auto;
+    }
+    #jc.carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: 1rem;
+      bottom: auto;
+    }
+  .event-space-heading {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
   /*home*/
   .headline{
@@ -454,6 +551,7 @@ a:active {
   .contains{
     margin-left: 1rem;
     margin-right: 1rem;
+    padding-bottom: 30px;
   }
   #speakers .nav-link {
 
@@ -503,6 +601,19 @@ a:active {
     margin-left: 0.5rem;
     font-size: 1.5em;
   }
+    #jc.carousel-caption {
+      color: white;
+      right: 1rem;
+      text-align: center;
+      left: 1rem;
+      top: 0.5px;
+      bottom: auto;
+    }
+  .lead {
+     padding-top: 5px;
+     font-size: medium;
+   }
+  
   #demo{
     position: relative;
     left: 33rem;
@@ -513,6 +624,7 @@ a:active {
   .contains{
     margin-left: 10rem;
     margin-right: 10rem;
+    padding-bottom: 30px;
   }
   #speakers .nav-link {
     border-radius: 18 px;
@@ -591,12 +703,19 @@ a:active {
     margin-left: 12rem;
     margin-right: 12rem;
   }
+  .event-space-heading {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
   .card-text{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .contains{
     margin-left: 20rem;
     margin-right: 20rem;
+    padding-bottom: 30px;
   }
   .img-fluid {
     border-radius: 50%;
@@ -663,11 +782,26 @@ a:active {
   .event-space{
     margin-left: 20rem;
     margin-right: 20rem;
+    padding-bottom: 30px;
   }
+  .event-space-heading {
+      margin-left: 15rem;
+      margin-right: 15rem;
+      padding-bottom: 50px;
+      padding-top: 30px;
+   }
   /*Carousal*/
+  .event-space-heading {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }  
   .contains{
     margin-left: 30rem;
     margin-right: 30rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
   .img-fluid {
     border-radius: 50%;
