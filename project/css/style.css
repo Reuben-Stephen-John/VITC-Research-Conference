@@ -6,6 +6,8 @@
   margin-right: 2rem;
   margin-left: 0;
   margin-bottom: 0rem;
+  color:#000000!important;
+  font-weight: bold;
 }
 #jumboCarousel .carousel-caption {
   color: white;
@@ -73,13 +75,13 @@
 .homeContainer{
   margin-top: 5rem;
   margin-left: -3vw;
-  width: 90vw;
+  width: 100vw;
 }
 .homeImageContainer{
   height: 100vh;
   background-image: url('../assets/conference4.jpg');
   filter: blur(4px);
-  width: 98vw;
+  width: 100vw;
   background-repeat: no-repeat;
 }
 .child{
@@ -138,7 +140,7 @@
   font-size: 2rem;
   text-align: left;
   margin-left: 1.8rem;
-  color:rgb(0, 15, 67);
+  color:#ffffff;
   font-weight: bold;
   letter-spacing: 0.1rem;
   border-radius: 0.3rem;
@@ -199,6 +201,70 @@
 
 /*/speaker*/
 
+/*footer*/
+.footerContainer{
+  background-color:rgb(15, 23, 42) ;
+}
+.footerIcons{
+  text-align: center;
+  color: #ffffff;
+}
+.footerIconsMain{
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+  color: rgb(59, 139, 234);
+}
+.footerIconsMain:hover{
+  color:#ffffff;
+}
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
+
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+ }
+.footerMenu{
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.footerMenu:hover{
+  color: rgb(59, 139, 234);
+}
+.footerTexts{
+
+  text-align: center;
+  color: #ffffff;
+  margin-top: -0.6rem;
+  text-decoration:none;
+  color: #ffffff!important;
+  margin-bottom: -0.2rem;
+}
+.footerTextsLast{
+    font-size: 0.9rem;
+}
+.developerName:hover{
+  color:rgb(59, 139, 234);
+}
+.hr{
+  color:#ffffff;
+}
+/*/footer*/
 
 
 /*responsiveness*/
