@@ -31,6 +31,7 @@ var x = setInterval(function() {
 }, 1000);
 //for time countdown/
 
+//scroll top button
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
@@ -56,3 +57,4 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+//scroll top button/

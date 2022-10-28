@@ -1,3 +1,7 @@
+/*navbar*/
+.navbar{
+  background-color: rgb(15, 23, 42);
+}
 .menuItem{
   position: relative;
   right: 2rem;
@@ -6,9 +10,25 @@
   margin-right: 2rem;
   margin-left: 0;
   margin-bottom: 0rem;
-  color:#000000!important;
+  color:#ffffff!important;
   font-weight: bold;
 }
+.menuItems:hover{
+  color: rgb(59, 139, 234)!important;
+}
+.navbarTogglerButton{
+  color:#ffffff!important;
+  font-size: 1.5rem;
+}
+.offcanvasContainer{
+  background-color: rgb(15, 23, 42)!important;
+  width: 15rem;
+
+}.offcanvas-title{
+  color:rgb(59, 139, 234) ;
+}
+/*/navabr/
+
 /*details image rounding*/
 #ca-image{
   border-radius: 25px;
@@ -38,7 +58,7 @@
   top: 1rem;
   bottom: auto;
 }
-/*back to top*/ 
+/*back to top*/
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -102,15 +122,16 @@
 
 /*home*/
 .homeContainer{
-  margin-top: 5rem;
-  margin-left: -3vw;
-  width: 100vw;
+  margin-top: 4.3rem;
+
+
 }
 .homeImageContainer{
   height: 100vh;
   background-image: url('../assets/conference4.jpg');
   filter: blur(4px);
-  width: 100vw;
+
+  margin-left: -3vw;
   background-repeat: no-repeat;
 }
 .child{
@@ -148,13 +169,9 @@
 .button{
   margin-left: 0.7rem;
 }
-#demo{
-  position: relative;
-  left: 50rem;
-  bottom:7.5rem;
-  color: #ffffff;
-  width:26rem;
-  font-size: 3rem;
+/*time countdown*/
+.timeCountDownContainer{
+  text-align: left!important;
 }
 .columns{
   margin-left: 1rem;
@@ -187,6 +204,7 @@
   text-align: center;
   font-weight: bold;
   margin-top: -0.2rem;
+  color:#ffffff;
 }
 /*/home*/
 
@@ -224,7 +242,7 @@
   max-width: 100%;
   max-height: auto;
   margin: 10px 5px;
-  
+
 }
 
 
@@ -310,7 +328,6 @@ a:active {
   /*home*/
   .headline{
     margin-left: 0.5rem;
-    font-size: 3em;
   }
   .tagline{
     margin-left: 0.5rem;
@@ -319,12 +336,10 @@ a:active {
   .date{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
   }
   .address{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
   }
   .button{
     margin-left: 0.5rem;
@@ -359,7 +374,7 @@ a:active {
     text-align: span;
 
   }
- 
+
   .event-space{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
@@ -374,7 +389,7 @@ a:active {
   }
   .img-fluid {
     border-radius: 50%;
-      
+
     max-width: 40%;
     max-height: auto;
     margin: 10px 5px;
@@ -383,6 +398,9 @@ a:active {
   .menuItems{
     margin-right: 0;
     margin-left: 1rem;
+  }
+  .timeCountDownContainer{
+    display:none;
   }
 }
 /*small*/
@@ -400,12 +418,13 @@ a:active {
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
-  
+
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
-    
+
   }
+
     #jumboCarousel .carousel-caption {
       color: white;
       right: 1rem;
@@ -431,7 +450,6 @@ a:active {
   /*home*/
   .headline{
     margin-left: 0.5rem;
-    font-size: 3em;
   }
   .tagline{
     margin-left: 0.5rem;
@@ -440,15 +458,17 @@ a:active {
   .date{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
+
   }
   .address{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
   }
   .button{
     margin-left: 0.5rem;
+  }
+  .timeCountDownContainer{
+    display:none;
   }
   /*/home*/
   .event-space{
@@ -485,11 +505,11 @@ a:active {
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
-  
+
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
-    
+
   }
     #jumboCarousel .carousel-caption {
       color: white;
@@ -516,34 +536,26 @@ a:active {
   /*home*/
   .headline{
     margin-left: 0.5rem;
-    font-size: 5em;
   }
   .tagline{
     margin-left: 0.5rem;
     margin-top: 3.5rem;
-    font-size: 2em;
-
   }
   .date{
     margin-left: 0.5rem;
     margin-top: 2rem;
-    font-size: 1.8em;
   }
   .address{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.8em;
   }
   .button{
     margin-left: 0.5rem;
-    font-size: 1.5em;
   }
-  #demo{
-    position: relative;
-    left: 33rem;
-    bottom:3rem;
-    width:26rem;
+  .timeCountDownContainer{
+    display:none;
   }
+
   /*/home*/
   .card-text{
     font-size: 1.3rem;
@@ -579,27 +591,21 @@ a:active {
   /*home*/
   .headline{
     margin-left: 0.5rem;
-    font-size: 3.5em;
   }
   .tagline{
     margin-left: 0.5rem;
     margin-top: 2.5rem;
-    font-size: 1.5em;
-
   }
   .date{
     margin-left: 0.5rem;
     margin-top: 2rem;
-    font-size: 1.3em;
   }
   .address{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
   }
   .button{
     margin-left: 0.5rem;
-    font-size: 1.5em;
   }
     #jc.carousel-caption {
       color: white;
@@ -613,13 +619,10 @@ a:active {
      padding-top: 5px;
      font-size: medium;
    }
-  
-  #demo{
-    position: relative;
-    left: 33rem;
-    bottom:8rem;
-    width:26rem;
-  }
+
+   .timeCountDownContainer{
+     display:block;
+   }
   /*/home*/
   .contains{
     margin-left: 10rem;
@@ -642,11 +645,11 @@ a:active {
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
-  
+
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
-    
+
   }
   .card-text{
     font-size: 1.2rem;
@@ -664,33 +667,24 @@ a:active {
   /*home*/
   .headline{
     margin-left: 0.5rem;
-    font-size: 3em;
   }
   .tagline{
     margin-left: 0.5rem;
     margin-top: 2rem;
-    font-size: 1em;
-
   }
   .date{
     margin-left: 0.5rem;
     margin-top: 2rem;
-    font-size: 1em;
   }
   .address{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1em;
   }
   .button{
     margin-left: 0.5rem;
-    font-size: 1em;
   }
-  #demo{
-    position: relative;
-    left: 50rem;
-    bottom:3.8rem;
-    width:26rem;
+  .timeCountDownContainer{
+    display:block;
   }
   #speakers .nav-link {
     height: 75px;
@@ -723,11 +717,11 @@ a:active {
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
-  
+
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
-    
+
   }
 
   .menuItems{
@@ -745,7 +739,6 @@ a:active {
   /*home*/
   .headline{
     margin-left: 0.5rem;
-    font-size: 3em;
   }
   .tagline{
     margin-left: 0.5rem;
@@ -754,21 +747,16 @@ a:active {
   .date{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
   }
   .address{
     margin-left: 0.5rem;
     margin-top: 1.5rem;
-    font-size: 1.3em;
   }
   .button{
     margin-left: 0.5rem;
   }
-  #demo{
-    position: relative;
-    left: 58rem;
-    bottom:1rem;
-    width:26rem;
+  .timeCountDownContainer{
+    display:block;
   }
   /*/home*/
   .menuItem{
@@ -796,7 +784,7 @@ a:active {
     margin-right: 15rem;
     padding-bottom: 30px;
     padding-top: 30px;
-  }  
+  }
   .contains{
     margin-left: 30rem;
     margin-right: 30rem;
@@ -809,12 +797,12 @@ a:active {
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
-  
+
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
   }
-  
+
 
   .menuItems{
     margin-right: 2rem;
