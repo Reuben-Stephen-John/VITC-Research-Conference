@@ -37,27 +37,12 @@
 #event{
   padding-top: 20px;
 }
-.dets
-{
+.dets{
   padding-top: 1%;
   padding-bottom: 3%;
 }
-#jumboCarousel .carousel-caption {
-  color: white;
-  right: 1rem;
-  text-align: center;
-  left: 1rem;
-  top: 40%;
-  bottom: auto;
-}
-#jc.carousel-caption {
-  color: white;
-  right: 1rem;
-  text-align: center;
-  left: 1rem;
-  top: 1rem;
-  bottom: auto;
-}
+/*FAQ*/
+
 /*back to top*/
 #btn-back-to-top {
   position: fixed;
@@ -325,6 +310,14 @@ a:active {
     position: relative;
     right: 0;
   }
+
+/*FAQ*/
+  .container-faq{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 8%;
+  }
+/*!FAQ*/
   /*home*/
   .headline{
     margin-left: 0.5rem;
@@ -412,6 +405,7 @@ a:active {
     position: relative;
     right: 0;
   }
+
   .img-fluid {
     border-radius: 50%;
     margin-top: 1rem;
@@ -422,9 +416,14 @@ a:active {
     max-width: 100%;
     max-height: auto;
     margin: 10px 5px;
-
   }
-
+/*FAQ*/
+.container-faq {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 8%;
+}
+/*!FAQ*/
     #jumboCarousel .carousel-caption {
       color: white;
       right: 1rem;
@@ -499,6 +498,13 @@ a:active {
     right: 0;
 
   }
+/*FAQ*/
+.container-faq {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 8%;
+}
+/*!FAQ*/
   .img-fluid {
     border-radius: 50%;
     margin-top: 1rem;
@@ -588,6 +594,13 @@ a:active {
   body{
     background-color: orange!important;
   }
+/*FAQ*/
+.container-faq {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-bottom: 4%;
+}
+/*!FAQ*/
   /*home*/
   .headline{
     margin-left: 0.5rem;
@@ -664,6 +677,13 @@ a:active {
     position: relative;
     right: 0rem;
   }
+  /*FAQ*/
+  .container-faq{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-bottom: 4%;
+  }
+  /*!FAQ*/
   /*home*/
   .headline{
     margin-left: 0.5rem;
@@ -671,7 +691,9 @@ a:active {
   .tagline{
     margin-left: 0.5rem;
     margin-top: 2rem;
+    font-size: 1em;
   }
+
   .date{
     margin-left: 0.5rem;
     margin-top: 2rem;
@@ -683,8 +705,12 @@ a:active {
   .button{
     margin-left: 0.5rem;
   }
-  .timeCountDownContainer{
-    display:block;
+
+  #demo{
+    position: relative;
+    left: 50rem;
+    bottom:3.8rem;
+    width:26rem;
   }
   #speakers .nav-link {
     height: 75px;
@@ -736,6 +762,12 @@ a:active {
   body{
     background-color: blue!important;
   }
+/*FAQ*/
+.container-faq {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+/*!FAQ*/
   /*home*/
   .headline{
     margin-left: 0.5rem;
@@ -758,7 +790,8 @@ a:active {
   .timeCountDownContainer{
     display:block;
   }
-  /*/home*/
+
+  /*home*/
   .menuItem{
     position: relative;
     right: 0rem;
