@@ -30,7 +30,64 @@ body{
 }.offcanvas-title{
   color:#0d6efd ;
 }
-/*/navabr/
+/*navabr*/
+
+
+
+/*FAQ*/
+.text-secondary {
+  color: white;
+}
+
+.h4,
+h4 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  color:rgb(13, 111, 255);
+}
+
+.fa,
+.fas {
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+a.text-secondary:focus,
+a.text-secondary:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#accordion .fa-plus {
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+#accordion a[aria-expanded=true] .fa-plus {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*!FAQ*/
+
+
 
 /*about*/
 
