@@ -362,7 +362,7 @@ a:active {
       right: 1rem;
       text-align: center;
       left: 1rem;
-      top: 5%;
+      top: 38%;
       bottom: auto;
     }
     #jc.carousel-caption {
@@ -373,11 +373,17 @@ a:active {
       top: .25rem;
       bottom: auto;
     }
+    .lead{
+      font-size: 90%;
+    }
   .event-space-heading {
     margin-left: 1rem;
     margin-right: 1rem;
     padding-bottom: 15px;
     padding-top: 15px;
+  }
+  .lead-e{
+    font-size: medium;
   }
   /*speaker*/
   #speakers .nav-link {
@@ -466,6 +472,9 @@ a:active {
     padding-bottom: 15px;
     padding-top: 15px;
   }
+    .lead-e {
+      font-size: medium;
+    }
   /*home*/
   .headline{
     margin-left: 0.5rem;
@@ -551,7 +560,7 @@ a:active {
       text-align: center;
       left: 1rem;
       top: 1rem;
-      bottom: auto;
+      bottom: 1rem;
     }
   .event-space-heading {
     margin-left: 5rem;
@@ -749,6 +758,9 @@ a:active {
     padding-bottom: 50px;
     padding-top: 30px;
   }
+    .lead-e {
+      font-size: large;
+    }
   .card-text{
     font-size: 1rem;
   }
@@ -768,6 +780,10 @@ a:active {
     max-height: auto;
     margin: 10px 5px;
 
+  }
+  .lead {
+    padding-top: 5px;
+    font-size: medium;
   }
 
   .menuItems{
@@ -809,6 +825,10 @@ a:active {
   }
   .timeCountDownContainer{
     display:block;
+  }
+  .lead {
+    padding-top: 5px;
+    font-size: 150%;
   }
 
   /*home*/
