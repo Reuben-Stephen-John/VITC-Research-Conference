@@ -188,11 +188,12 @@ a.text-secondary:hover {
 
 /*home*/
 .homeContainer{
-  margin-top: 4.3rem;
+  margin-top: 1.5rem;
 }
 .homeImageContainer{
   height: 100vh;
   background-image: url('../assets/conference4.jpg');
+  background-size: auto;
   filter: blur(4px);
   width: 100vw;
   position: relative;
@@ -375,6 +376,37 @@ a:active {
 }
 /*/footer*/
 
+ /*new page registration form*/
+ .formContainer{
+   margin-top: 6rem;
+   background-color:!important;
+   border-radius: 1rem;
+
+ }
+ .formHeading{
+   color: #ffffff;
+   margin: 0.5rem;
+ }
+ .formBodyContainer{
+   margin-top: 1.5rem;
+ }
+ .acknowledgementText{
+   color: #ffffff;
+ }
+ .form-label{
+   color: #0d6efd!important;
+   font-weight: bold;
+ }
+ .form-control,.form-select{
+   margin-bottom: : 0.5rem;
+   background-color: rgb(15, 23, 42);
+   color: #ffffff;
+   border-color: #0d6efd!important;
+ }
+ .submitBtn{
+   background-color: rgb(15, 23, 42);
+ }
+ /*/new page registration form*/
 
 /*responsiveness*/
 
@@ -478,6 +510,9 @@ a:active {
   .timeCountDownContainer{
     display:none;
   }
+.custom{
+  margin-top: 1rem;
+}
 }
 /*small*/
 @media (min-width: 577px){
