@@ -35,7 +35,7 @@
   <!--/favicon-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
   <!--navbar-->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
@@ -54,23 +54,23 @@
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 menuItem">
-            <li class="nav-item ">
-              <a class="nav-link active menuItems" aria-current="page" href="#">Home</a>
+          <ul id="navigation"class="navbar-nav nav-pills justify-content-end flex-grow-1 pe-3 menuItem">
+            <li class="nav-item menuItem">
+              <a class="nav-link menuItems active" aria-current="page" href="#home">Home</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item menuItem">
               <a class="nav-link menuItems" href="#about">About</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item menuItem">
               <a class="nav-link menuItems" href="#event">Event</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item menuItem">
               <a class="nav-link menuItems" href="#speakers">Speakers</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item menuItem">
               <a class="nav-link menuItems" href="#faq">FAQ</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item menuItem">
               <a class="nav-link menuItems" href="#contact">Contact</a>
             </li>
           </ul>

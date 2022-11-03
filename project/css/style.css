@@ -1,6 +1,7 @@
 body{
   background-color:  rgb(15, 23, 42)!important;
 }
+
 /*navbar*/
 .navbar{
   background-color: rgb(15, 23, 42);
@@ -8,16 +9,19 @@ body{
 .menuItem{
   position: relative;
   right: 2rem;
+  border-radius: 100%;
 }
+
 .menuItems{
   margin-right: 2rem;
   margin-left: 0;
   margin-bottom: 1.5rem;
-  color:#ffffff!important;
+  color:white!important;
   font-weight: bold;
+  border-radius: 100%;
 }
 .menuItems:hover{
-  color: #0d6efd!important;
+  color: rgb(181, 181, 181)!important;
 }
 .navbarTogglerButton{
   color:#ffffff!important;
@@ -379,7 +383,7 @@ a:active {
  /*new page registration form*/
  .formContainer{
    margin-top: 6rem;
-   background-color:!important;
+   background-color:rgb(15, 23, 42)!important;
    border-radius: 1rem;
 
  }
@@ -398,7 +402,7 @@ a:active {
    font-weight: bold;
  }
  .form-control,.form-select{
-   margin-bottom: : 0.5rem;
+   margin-bottom:  0.5rem;
    background-color: rgb(15, 23, 42);
    color: #ffffff;
    border-color: #0d6efd!important;
@@ -419,7 +423,10 @@ a:active {
     position: relative;
     right: 0;
   }
-
+#navigation.nav-pills .nav-link.active {
+  background-color: rgb(15, 23, 42) !important;
+  border-radius: 45%;
+}
 /*FAQ*/
   .container-faq{
     margin-left: 1rem;
@@ -535,6 +542,10 @@ a:active {
     max-height: auto;
     margin: 10px 5px;
   }
+    #navigation.nav-pills .nav-link.active {
+      background-color: rgb(15, 23, 42) !important;
+      border-radius: 45%;
+    }
 /*FAQ*/
 .container-faq {
   margin-left: 2rem;
@@ -721,6 +732,10 @@ a:active {
   margin-right: 4rem;
   padding-bottom: 4%;
 }
+#navigation.nav-pills .nav-link.active {
+  background-color: rgba(13, 109, 253, 0.5) !important;
+  border-radius: 45%;
+}
 /*!FAQ*/
   /*home*/
   .headline{
@@ -798,6 +813,10 @@ a:active {
     position: relative;
     right: 0rem;
   }
+    #navigation.nav-pills .nav-link.active {
+      background-color: rgba(13, 109, 253, 0.5) !important;
+      border-radius: 45%;
+    }
   /*FAQ*/
   .container-faq{
     margin-left: 7rem;
@@ -894,6 +913,10 @@ a:active {
 .container-faq {
   margin-left: 10rem;
   margin-right: 10rem;
+}
+#navigation.nav-pills .nav-link.active {
+  background-color: rgba(13, 109, 253, 0.5) !important;
+  border-radius: 45%;
 }
 /*!FAQ*/
   /*home*/
