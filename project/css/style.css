@@ -4,7 +4,7 @@ body{
 
 /*navbar*/
 .navbar{
-  background-color: rgb(15, 23, 42);
+  background-color: rgb(0, 0, 0,0.8);
 }
 .menuItem{
   position: relative;
@@ -326,10 +326,10 @@ a.text-secondary:hover {
 .footerIconsMain{
   margin-left: 0.8rem;
   font-size: 1.2rem;
-  color: #0d6efd;
+  color: #ffffff;
 }
 .footerIconsMain:hover{
-  color:#ffffff;
+  color:#0d6efd;
 }
 a:link {
   text-decoration: none;
@@ -425,7 +425,6 @@ a:active {
   }
 #navigation.nav-pills .nav-link.active {
   background-color: rgb(15, 23, 42) !important;
-  border-radius: 45%;
 }
 /*FAQ*/
   .container-faq{
@@ -544,7 +543,6 @@ a:active {
   }
     #navigation.nav-pills .nav-link.active {
       background-color: rgb(15, 23, 42) !important;
-      border-radius: 45%;
     }
 /*FAQ*/
 .container-faq {
@@ -733,8 +731,7 @@ a:active {
   padding-bottom: 4%;
 }
 #navigation.nav-pills .nav-link.active {
-  background-color: rgba(13, 109, 253, 0.5) !important;
-  border-radius: 45%;
+  background-color: rgb(13, 110, 253) !important;
 }
 /*!FAQ*/
   /*home*/
@@ -814,8 +811,7 @@ a:active {
     right: 0rem;
   }
     #navigation.nav-pills .nav-link.active {
-      background-color: rgba(13, 109, 253, 0.5) !important;
-      border-radius: 45%;
+      background-color: rgb(13, 110, 253)!important;
     }
   /*FAQ*/
   .container-faq{
@@ -914,9 +910,11 @@ a:active {
   margin-left: 10rem;
   margin-right: 10rem;
 }
+.accordian-text{
+  color:white;
+}
 #navigation.nav-pills .nav-link.active {
-  background-color: rgba(13, 109, 253, 0.5) !important;
-  border-radius: 45%;
+  background-color: rgb(13, 110, 253) !important;
 }
 /*!FAQ*/
   /*home*/
