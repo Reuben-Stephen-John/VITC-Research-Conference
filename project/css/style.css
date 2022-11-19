@@ -1,8 +1,13 @@
 body{
-  background-color:  rgb(15, 23, 42)!important;
+  background-color: linear-gradient(rgb(15, 23, 42), rgb(28, 43, 80),rgb(41, 63, 118))!important;
 }
 
 /*navbar*/
+#contained {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .navbar{
   background-color: rgb(0, 0, 0,0.8);
 }
@@ -34,9 +39,7 @@ body{
 }.offcanvas-title{
   color:#0d6efd ;
 }
-.collapse{
-  /* color: red!important; */
-} */
+
 /*navabr
 
 
@@ -195,7 +198,7 @@ a.text-secondary:hover {
 
 /*home*/
 .homeContainer{
-  margin-top: 1.5rem;
+  margin-top: 0rem;
 }
 .homeImageContainer{
   height: 100vh;
@@ -314,11 +317,21 @@ a.text-secondary:hover {
   margin: 10px 5px;
 
 }
-
+/*/transistions/*/
+.hidden{
+  opacity:0;
+  transition: all 4s;
+}
+.show{
+  opacity:1;
+}
 
 /*/speaker*/
 
 /*footer*/
+#footer {
+  margin-bottom: 2rem;
+}
 .footerContainer{
   background-color:rgb(15, 23, 42) ;
 }
@@ -427,9 +440,12 @@ a:active {
     right: 0;
   }
 #navigation.nav-pills .nav-link.active {
-  padding: 0.5rem;
+  padding: 1rem;
 }
-
+#contained {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 /*FAQ*/
   .container-faq{
     margin-left: 1rem;

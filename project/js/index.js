@@ -58,3 +58,16 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 //scroll top button/
+//Scroll animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+      console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+  const hiddenElements = document.querySelectorAll('.event');
+  hiddenElements.forEach((el) => observer.observe(el));
